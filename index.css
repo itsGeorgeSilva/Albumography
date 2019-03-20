@@ -1,0 +1,108 @@
+.burger {
+  float: left;
+  color: #fe87db;
+  display: inline-block;
+  border: 0;
+  margin-left: 40px;
+  margin-top: 25px;
+  background: none;
+  outline: 0;
+  padding: 0;
+  cursor: pointer;
+  border-bottom: 4px solid currentColor;
+  width: 28px; }
+  .burger::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .burger:before {
+    content: "";
+    display: block;
+    color: #fe87db;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px; }
+  .burger:after {
+    content: "";
+    display: block;
+    color: #fe87db;
+    border-bottom: 4px solid currentColor;
+    width: 100%;
+    margin-bottom: 5px; }
+
+.burger-check {
+  display: none; }
+
+.burger-check:checked ~ .burger {
+  color: white;
+  border-bottom: 4px solid currentColor; }
+  .burger-check:checked ~ .burger:before {
+    color: white; }
+  .burger-check:checked ~ .burger:after {
+    color: white; }
+
+.navigation {
+  overflow: hidden;
+  height: 0;
+  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
+  background: -o-linear-gradient(right, #fe87db, #ff9920);
+  background: -moz-linear-gradient(right, #fe87db, #ff9920);
+  background: linear-gradient(to left, #fe87db, #ff9920);
+  transition: max-height 2em ease-in-out; }
+
+.burger-check:checked ~ .navigation {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
+  background: -o-linear-gradient(right, #fe87db, #ff9920);
+  background: -moz-linear-gradient(right, #fe87db, #ff9920);
+  background: linear-gradient(to left, #fe87db, #ff9920);
+  transition: max-height 2em ease-in-out; }
+
+.navTab {
+  background-color: black;
+  height: 5em; }
+
+.burger-check:checked ~ .navTab {
+  max-height: 500px;
+  background-color: blue;
+  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
+  background: -o-linear-gradient(right, #fe87db, #ff9920);
+  background: -moz-linear-gradient(right, #fe87db, #ff9920);
+  background: linear-gradient(to left, #fe87db, #ff9920);
+  transition: max-height 2em ease-in-out; }
+
+.icons {
+  float: right;
+  display: block;
+  max-height: 0px; }
+
+.icons ul {
+  list-style-type: none; }
+
+.icons li {
+  float: left;
+  padding-right: 20px;
+  padding-top: 5px; }
+
+body {
+  margin: auto; }
+
+a {
+  color: inherit; }
+
+small {
+  font-size: 14px; }
+
+.navigation ul {
+  margin: 0;
+  padding: 0; }
+
+.navigation li {
+  list-style: none;
+  font-size: 25px;
+  padding: 5px 0; }
+  .navigation li a {
+    text-decoration: none; }
+    .navigation li a:hover {
+      text-decoration: underline; }
