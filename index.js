@@ -2,7 +2,7 @@
 
 
 loadHtml = function(html){
-  $('#content').load(html);
+  $('.content').load(html);
 }
 
 
@@ -21,6 +21,6 @@ loadCSS = function(href, id) {
 
 
 $(document).ready(function(){
-
+loadHtml ("app/datos/datos.html");
 
 });

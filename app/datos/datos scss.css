@@ -1,0 +1,11 @@
+@charset "UTF-8";
+.division1 {
+  width: 50%;
+  float: none;
+}
+img {
+  width: 100%;
+}
+.division2 {
+  background-color: red;
+}
