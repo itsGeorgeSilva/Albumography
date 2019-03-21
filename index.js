@@ -21,6 +21,6 @@ loadCSS = function(href, id) {
 
 
 $(document).ready(function(){
-loadHtml ("app/datos/datos.html");
-
+  loadHtml("app/datos/datos.html");
+  loadCSS("app/datos/datos.css");
 });
