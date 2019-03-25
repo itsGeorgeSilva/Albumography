@@ -27,7 +27,7 @@ function removeJS(id){
   $( "."+id+"" ).remove();
 };
 
-function removeALL(){
+function removeAll(){
   removeCSS("artistsCSS");
 };
 
@@ -37,6 +37,7 @@ function about(){
   loadHtml("app/about/about.html");
   loadCSS("app/about/about.css","aboutCSS");
   loadJS("app/about/about.js","aboutJS");
+  $(".burger-check").prop( "checked", false);
 };
 
 function typo(){
