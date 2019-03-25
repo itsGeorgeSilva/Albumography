@@ -1,4 +1,4 @@
-
+var slideIndex;
 
 // Next/previous controls
 function plusSlides(n) {
@@ -28,7 +28,6 @@ function showSlides(n) {
 
 
 $(document).ready(function(){
-  console.log( "ready!" );
-  var slideIndex = 1;
+  slideIndex = 1;
   showSlides(slideIndex);
 });
