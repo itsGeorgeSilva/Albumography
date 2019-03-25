@@ -151,8 +151,10 @@ function faq(){
 function navigation(){
   if($(".burger-check").is(":checked")) {
     $(".content").hide();
+    $(".footer").hide();
   }else{
     $(".content").show();
+    $(".footer").show();
   }
 }
 
