@@ -65,7 +65,9 @@
 
 .burger-check:checked ~ .navTab {
   max-height: 500px;
-  background-color: blue;
+  border-bottom-color: white;
+  border-bottom-width: 2px;
+  border-bottom-style: inset;
   background: -webkit-linear-gradient(right, #fe87db, #ff9920);
   background: -o-linear-gradient(right, #fe87db, #ff9920);
   background: -moz-linear-gradient(right, #fe87db, #ff9920);
@@ -95,10 +97,10 @@ small {
   font-size: 14px; }
 
 .navigation table {
-  padding-top: 5%;
-  padding-left: 15%;
+  margin: 5em auto;
   font-size: 30px;
   color:white;
+  font-family: helvetica;
 }
 
 .navigation td{
