@@ -20,7 +20,7 @@ function loadJS(src, id) {
  }; 
 
 function removeElement(id){
-  $( "."+id+"" ).remove();
+  $( "#"+id+"" ).remove();
 };
 function removeAll(){
   removeElement("aboutCSS");
