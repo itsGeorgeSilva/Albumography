@@ -88,7 +88,9 @@
   padding-top: 5px; }
 
 body {
-  margin: auto; }
+  margin: auto;
+  height: 100%;
+}
 
 a {
   color: inherit; }
@@ -110,11 +112,15 @@ small {
 
 .footer {
   height: 5em;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
+}
+.content{
+  content: "";
+  clear: both;
+  display: table;
 }
