@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: none;
+    position: relative;
+    margin: auto;
 }
 .mySlides {
   display: none;
@@ -16,6 +16,8 @@
 }
 .division2 {
     background-color: #FFFFFF;
+    width: 50%;
+    float: right;
 }
 .division2 h1 {
     font-weight: bold;
@@ -26,6 +28,7 @@
     color: #888888;
     line-height: 2;
     padding-left: 20px;
+    height: 500px;
 }
 .prev, .next {
   cursor: pointer;
