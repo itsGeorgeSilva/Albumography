@@ -1,2 +1,28 @@
-/* CSS Document */
+.division1 {
+  width: 50%;
+  float: left;
+}
+.photo img{
+  width: 100%;
+}
+.division2 {
+    background-color: #FFFFFF;
+    width: 50%;
+    float: right;
+    height: 600px;
+}
+.division2 h1 {
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 53px;
+    padding-left: 10%;
+}
+.division2 p {
+    font-family: helvetica;
+    color: #888888;
+    line-height: 2;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 500px;
+}/* CSS Document */
 
