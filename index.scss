@@ -147,21 +147,7 @@ small {
   font-size: 14px;
 }
 
-.navigation ul {
+.navigation table {
   margin: 0;
   padding: 0;
-}
-
-.navigation li {
-  list-style: none;
-  font-size: 25px;
-  padding: 5px 0;
-  
-  a {
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }    
-  }
 }

@@ -19,24 +19,52 @@ function loadJS(src, id) {
   $("head").append(jsLink); 
  }; 
 
-function removeCSS(id){
+function removeElement(id){
   $( "."+id+"" ).remove();
 };
-
-function removeJS(id){
-  $( "."+id+"" ).remove();
-};
-
 function removeAll(){
-  removeCSS("artistsCSS");
+  removeElement("aboutCSS");
+  removeElement("aboutJS");
+  removeElement("typoCSS");
+  removeElement("typoJS");
+  removeElement("photoCSS");
+  removeElement("photoJS");
+  removeElement("ilusCSS");
+  removeElement("ilusJS");
+  removeElement("albumsCSS");
+  removeElement("albumsJS");
+  removeElement("interviewCSS");
+  removeElement("interviewJS");
+  removeElement("videosCSS");
+  removeElement("videosJS");
+  removeElement("artistsCSS");
+  removeElement("artistsJS");
+  removeElement("homeCSS");
+  removeElement("homeJS");
+  removeElement("faqCSS");
+  removeElement("faqJS");
 };
+
+function hideNSeek(){
+  $(".burger-check").prop( "checked", false);
+}
+
+function home(){
+  removeAll();
+  loadHtml("app/home/home.html");
+  loadCSS("app/home/home.css","homeCSS");
+  loadJS("app/home/home.js","homeJS");
+  hideNSeek();
+  navigation();
+}
 
 function about(){
   removeAll();
   loadHtml("app/about/about.html");
   loadCSS("app/about/about.css","aboutCSS");
   loadJS("app/about/about.js","aboutJS");
-  $(".burger-check").prop( "checked", false);
+  hideNSeek();
+  navigation();
 };
 
 function typo(){
@@ -44,6 +72,8 @@ function typo(){
   loadHtml("app/typo/typo.html");
   loadCSS("app/typo/typo.css","typoCSS");
   loadJS("app/typo/typo.js","typoJS");
+  hideNSeek();
+  navigation();
 };
 
 function photo(){
@@ -51,6 +81,8 @@ function photo(){
   loadHtml("app/photo/photo.html");
   loadCSS("app/photo/photo.css","photoCSS");
   loadJS("app/photo/photo.js","photoJS");
+  hideNSeek();
+  navigation();
 }
 
 function ilus(){
@@ -58,6 +90,8 @@ function ilus(){
   loadHtml("app/ilus/ilus.html");
   loadCSS("app/ilus/ilus.css","ilusCSS");
   loadJS("app/ilus/ilus.js","ilusJS");
+  hideNSeek();
+  navigation();
 }
 
 function album(){
@@ -65,6 +99,8 @@ function album(){
   loadHtml("app/albums/albums.html");
   loadCSS("app/albums/albums.css","albumsCSS");
   loadJS("app/albums/albums.js","albumsJS");
+  hideNSeek();
+  navigation();
 }
 
 function interview(){
@@ -72,6 +108,8 @@ function interview(){
   loadHtml("app/interview/interview.html");
   loadCSS("app/interview/interview.css","interviewCSS");
   loadJS("app/interview/interview.js","interviewJS");
+  hideNSeek();
+  navigation();
 }
 
 function video(){
@@ -79,6 +117,8 @@ function video(){
   loadHtml("app/videos/videos.html");
   loadCSS("app/videos/videos.css","videosCSS");
   loadJS("app/videos/videos.js","videosJS");
+  hideNSeek();
+  navigation();
 }
 
 function artist(){
@@ -86,6 +126,8 @@ function artist(){
   loadHtml("app/artists/artists.html");
   loadCSS("app/artists/artists.css","artistsCSS");
   loadJS("app/artists/artists.js","artistsJS");
+  hideNSeek();
+  navigation();
 }
 
 function event(){
@@ -93,6 +135,8 @@ function event(){
   loadHtml("app/events/events.html");
   loadCSS("app/events/events.css","eventsCSS");
   loadJS("app/events/events.js","eventsJS");
+  hideNSeek();
+  navigation();
 }
 
 function faq(){
@@ -100,13 +144,19 @@ function faq(){
   loadHtml("app/faq/faq.html");
   loadCSS("app/faq/faq.css","faqCSS");
   loadJS("app/faq/faq.js","faqJS");
+  hideNSeek();
+  navigation();
+}
+
+function navigation(){
+  if($(".burger-check").is(":checked")) {
+    $(".content").hide();
+  }else{
+    $(".content").show();
+  }
 }
 
 $(document).ready(function(){
-  $("#typo").click(function(){
-    
-  });
-  loadHtml("app/datos/datos.html");
-  loadCSS("app/datos/datos.css","datosCSS");
-  loadJS("app/datos/datos.js","datosJS");
+  $(".burger-check").change(navigation);
+  home();
 });

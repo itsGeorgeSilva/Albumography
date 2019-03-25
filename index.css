@@ -94,15 +94,14 @@ a {
 small {
   font-size: 14px; }
 
-.navigation ul {
-  margin: 0;
-  padding: 0; }
+.navigation table {
+  padding-top: 5%;
+  padding-left: 15%;
+  font-size: 30px;
+  color:white;
+}
 
-.navigation li {
-  list-style: none;
-  font-size: 25px;
-  padding: 5px 0; }
-  .navigation li a {
-    text-decoration: none; }
-    .navigation li a:hover {
-      text-decoration: underline; }
+.navigation td{
+  padding-top: 2%;
+  padding-left: 5%;
+}
