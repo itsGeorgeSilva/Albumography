@@ -54,6 +54,7 @@ function home(){
   loadHtml("app/home/home.html");
   loadCSS("app/home/home.css","homeCSS");
   loadJS("app/home/home.js","homeJS");
+  document.title = "home";
   hideNSeek();
   navigation();
 }
@@ -63,6 +64,7 @@ function about(){
   loadHtml("app/about/about.html");
   loadCSS("app/about/about.css","aboutCSS");
   loadJS("app/about/about.js","aboutJS");
+  document.title = "about";
   hideNSeek();
   navigation();
 };
@@ -72,6 +74,7 @@ function typo(){
   loadHtml("app/typo/typo.html");
   loadCSS("app/typo/typo.css","typoCSS");
   loadJS("app/typo/typo.js","typoJS");
+  document.title = "typo";
   hideNSeek();
   navigation();
 };
@@ -81,6 +84,7 @@ function photo(){
   loadHtml("app/photo/photo.html");
   loadCSS("app/photo/photo.css","photoCSS");
   loadJS("app/photo/photo.js","photoJS");
+  document.title = "photo";
   hideNSeek();
   navigation();
 }
@@ -90,6 +94,7 @@ function ilus(){
   loadHtml("app/ilus/ilus.html");
   loadCSS("app/ilus/ilus.css","ilusCSS");
   loadJS("app/ilus/ilus.js","ilusJS");
+  document.title = "ilus";
   hideNSeek();
   navigation();
 }
@@ -99,6 +104,7 @@ function album(){
   loadHtml("app/albums/albums.html");
   loadCSS("app/albums/albums.css","albumsCSS");
   loadJS("app/albums/albums.js","albumsJS");
+  document.title = "albums";
   hideNSeek();
   navigation();
 }
@@ -108,6 +114,7 @@ function interview(){
   loadHtml("app/interview/interview.html");
   loadCSS("app/interview/interview.css","interviewCSS");
   loadJS("app/interview/interview.js","interviewJS");
+  document.title = "interview";
   hideNSeek();
   navigation();
 }
@@ -117,6 +124,7 @@ function video(){
   loadHtml("app/videos/videos.html");
   loadCSS("app/videos/videos.css","videosCSS");
   loadJS("app/videos/videos.js","videosJS");
+  document.title = "videos";
   hideNSeek();
   navigation();
 }
@@ -126,6 +134,7 @@ function artist(){
   loadHtml("app/artists/artists.html");
   loadCSS("app/artists/artists.css","artistsCSS");
   loadJS("app/artists/artists.js","artistsJS");
+  document.title = "artists";
   hideNSeek();
   navigation();
 }
@@ -135,6 +144,7 @@ function event(){
   loadHtml("app/events/events.html");
   loadCSS("app/events/events.css","eventsCSS");
   loadJS("app/events/events.js","eventsJS");
+  document.title = "events";
   hideNSeek();
   navigation();
 }
@@ -144,6 +154,7 @@ function faq(){
   loadHtml("app/faq/faq.html");
   loadCSS("app/faq/faq.css","faqCSS");
   loadJS("app/faq/faq.js","faqJS");
+  document.title = "FAQ";
   hideNSeek();
   navigation();
 }
