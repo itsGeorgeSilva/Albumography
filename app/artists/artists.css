@@ -4,6 +4,9 @@
     max-width: none;
     position: relative;
     margin: auto;
+    content: "";
+    clear: both;
+    display: table;
 }
 .mySlides {
   display: none;
@@ -69,7 +72,6 @@
 
 .dots {
   text-align:center;
-  position: absolute;
   top: 95%;
   left: 38%;
 }
@@ -90,4 +92,9 @@
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+.info{
+  content: "";
+  clear: both;
+  display: table;
 }
