@@ -1,14 +1,13 @@
 .album {
-	width: 250px;
+	width: 20%;
 	height: 250px;
 	float: left;
 	margin-top: 50px;
 	clear: none;
-	margin-left: 14px;
 	border: thin solid #000000;
 }
 .link {
-	width: 250px;
+	width: 20%;
 	float: left;
 	height: 46px;
 	margin-left: 14px;
@@ -22,11 +21,28 @@
 	margin-bottom: 30px;/* CSS Document */
 }
 .descripcion {
-	width: 700px;
+	width: 100%;
 	float: center;
 	text-align: left;
 	margin-left: 150px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-bottom: 50px;
 	line-height: 30px;
-	}
+}
+
+.album img{
+	width: 100%;
+}
+
+.links {
+	content: "";
+  clear: both;
+  display: table;
+}
+
+.albums {
+	width: 100%;
+	content: "";
+  clear: both;
+  display: table;
+}
