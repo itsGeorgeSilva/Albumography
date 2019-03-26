@@ -1,3 +1,9 @@
+.titulo {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	font-size: 35pt;
+	float: left;
+}
 .album {
 	width: 250px;
 	height: 250px;
