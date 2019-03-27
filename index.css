@@ -50,7 +50,7 @@
   transition: max-height 2em ease-in-out; }
 
 .burger-check:checked ~ .navigation {
-  /*/position: fixed; */
+  position: fixed; 
   height: 100%;
   width: 100%;
   background: -webkit-linear-gradient(right, #fe87db, #ff9920);
