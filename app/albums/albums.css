@@ -16,6 +16,8 @@
   text-align: justify;
   font-family: helvetica;
   color: white;
+  margin-top: 2%;
+  margin-bottom: 4%;
 }
 
 .form{
@@ -46,9 +48,28 @@
 }
 
 .info{
+  color: white;
+  height: 100%;
+  width: 100%;
   background: -webkit-linear-gradient(right, #fe87db, #ff9920);
   background: -o-linear-gradient(right, #fe87db, #ff9920);
   background: -moz-linear-gradient(right, #fe87db, #ff9920);
   background: linear-gradient(to left, #fe87db, #ff9920);
-}/* CSS Document */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  content: "";
+  clear: both;
+  display: table;
+}
 
+.ilustracion{
+  color: white;
+  height: 100%;
+  width: 100%;
+  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
+  background: -o-linear-gradient(right, #fe87db, #ff9920);
+  background: -moz-linear-gradient(right, #fe87db, #ff9920);
+  background: linear-gradient(to left, #fe87db, #ff9920);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
