@@ -57,13 +57,14 @@ text-align: center;
 }
 .info{
   color: white;
-  position: fixed;
   height: 100%;
   width: 100%;
   background: -webkit-linear-gradient(right, #fe87db, #ff9920);
   background: -o-linear-gradient(right, #fe87db, #ff9920);
   background: -moz-linear-gradient(right, #fe87db, #ff9920);
   background: linear-gradient(to left, #fe87db, #ff9920);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   content: "";
   clear: both;
   display: table;
