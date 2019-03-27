@@ -1,2 +1,54 @@
-/* CSS Document */
+.titulo {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 35pt;
+  text-align: center;
+  color: white;
+  padding: 2.5% 0;
+}
+.titulo h1{
+  margin: 0 0;
+}
+
+.description{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+  font-family: helvetica;
+  color: white;
+}
+
+.form{
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
+  font-family: helvetica;
+}
+
+.textarea{
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 21%;
+  resize: none;
+  font-family: helvetica;
+}
+
+.button{
+  margin-top: 2%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 2%;
+  text-align: center;
+  width: 21%;
+  font-family: helvetica;
+}
+
+.info{
+  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
+  background: -o-linear-gradient(right, #fe87db, #ff9920);
+  background: -moz-linear-gradient(right, #fe87db, #ff9920);
+  background: linear-gradient(to left, #fe87db, #ff9920);
+}/* CSS Document */
 
