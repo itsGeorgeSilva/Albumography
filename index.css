@@ -50,7 +50,7 @@
   transition: max-height 2em ease-in-out; }
 
 .burger-check:checked ~ .navigation {
-  position: fixed;
+  /*/position: fixed; */
   height: 100%;
   width: 100%;
   background: -webkit-linear-gradient(right, #fe87db, #ff9920);
@@ -88,10 +88,12 @@
   padding-top: 5px; }
 
 body {
-  margin: auto;
   height: 100%;
   position: relative;
   min-height: 100vh;
+  margin:0;
+  padding:0;
+  font-family: helvetica;
 }
 
 a {
@@ -121,6 +123,7 @@ small {
   background-color: black;
   color: white;
   text-align: center;
+
 }
 .content{
   content: "";
