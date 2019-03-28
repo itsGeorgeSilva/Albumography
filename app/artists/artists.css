@@ -19,7 +19,7 @@
   width: 100%;
 }
 .division2 {
-    /*background-color: #FFFFFF;*/
+    background-color: #FFFFFF;
     width: 50%;
     float: right;
     height: 600px;
@@ -29,10 +29,11 @@
     font-family: helvetica;
     font-size: 53px;
     padding-left: 10%;
+    color: #000000;
 }
 .division2 p {
     font-family: helvetica;
-    /*color: #888888;*/
+    color: #888888;
     line-height: 2;
     padding-left: 10%;
     padding-right: 10%;
@@ -95,15 +96,8 @@
   to {opacity: 1}
 }
 .info{
-  color: white;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
-  background: -o-linear-gradient(right, #fe87db, #ff9920);
-  background: -moz-linear-gradient(right, #fe87db, #ff9920);
-  background: linear-gradient(to left, #fe87db, #ff9920);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   content: "";
   clear: both;
   display: table;

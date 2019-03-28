@@ -30,4 +30,12 @@ function showSlides(n) {
 $(document).ready(function(){
   slideIndex = 1;
   showSlides(slideIndex);
+  $("#content").css({
+    "color": "white",
+  "content": "",
+  "background": "white",
+  "clear": "both",
+  "display": "table",
+  "padding-bottom": "5rem"
+  });
 });
