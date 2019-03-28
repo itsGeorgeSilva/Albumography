@@ -2,14 +2,47 @@
   color: white;
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(right, #fe87db, #ff9920);
-  background: -o-linear-gradient(right, #fe87db, #ff9920);
-  background: -moz-linear-gradient(right, #fe87db, #ff9920);
-  background: linear-gradient(to left, #fe87db, #ff9920);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   content: "";
   clear: both;
   display: table;
 }/* CSS Document */
 
+.titulo{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(271deg, #fe87db, #ff9920);
+-webkit-animation: AnimationName 4s ease infinite;
+-moz-animation: AnimationName 4s ease infinite;
+-o-animation: AnimationName 4s ease infinite;
+animation: AnimationName 4s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 51%}
+    100%{background-position:0% 50%}
+}
+
+}
